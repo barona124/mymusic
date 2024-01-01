@@ -1,0 +1,497 @@
+<html> 
+<head> <title> music </title> 
+<link rel = "icon" type = "image/x-icon" href = "https://live-production.wcms.abc-cdn.net.au/6d3f873815fdd390a9dc50d7c54490df?impolicy=wcms_crop_resize&cropH=2813&cropW=5000&xPos=0&yPos=335&width=862&height=485">
+
+<style> 
+.btn {
+border: none;
+border-radius: 5px;
+padding: 12px 20px;
+font-size: 16px;
+cursor: pointer;
+background-color: brown;
+color: white;
+position: relative;
+}
+
+
+.fa-google {
+background: #dd4b39;
+color: white;
+}
+
+.fa-linkedin {
+background: #007bb5;
+color: white;
+}
+
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+
+.fa-instagram {
+background: #125688;
+color: white;
+}
+
+.fa-pinterest {
+background: #cb2027;
+color: white;
+}
+
+.fa-snapchat-ghost {
+background: #fffc00;
+color: white;
+text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+background: #00aff0;
+color: white;
+}
+.fa {
+padding: 10px;
+font-size: 10px;
+width: 10px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+
+.fa:hover {
+opacity: 0.7;
+}
+
+.fa-facebook {
+background: #3B5998;
+color: white;
+}
+
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+.rating {
+unicode-bidi: bidi-override;
+direction: rtl;
+text-align: center;
+}
+
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+  content: "\2605";
+  position: absolute;
+  color: green;
+}
+.table1 {
+border-collapse: collapse;
+border: 2px solid rgb(200,200,200);
+letter-spacing: 1px;
+font-size: 0.75rem;
+width:100%;
+max-width:1300px;
+}
+.table1
+td, th {
+border: 1px solid rgb(190,190,190);
+padding: .625rem 1.25rem;
+}
+
+th {
+background-color: rgb(235,235,235);
+}
+
+.table1 td {
+text-align: center;
+}
+
+.table1 tr:nth-child(even) td {
+background-color: rgb(250,250,250);
+}
+
+.table1 tr:nth-child(odd) td {
+background-color: rgb(245,245,245);
+}
+
+col:nth-child(2) {
+border:2px solid #000;
+}
+
+caption {
+padding: .625rem;
+}
+
+.slider {
+overflow: hidden;
+width: 70%;
+height: 400px;
+position: relative;
+}
+
+.slider img {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+transition: opacity 0.10s ease-in-out;
+}
+
+.slider img.active {
+opacity: 1;
+}
+.gallery {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+gap: 10px;
+}
+nav a:link,
+nav a:visited {background-color:brown;
+color: white; 
+padding:14px 25px;
+text-align:center;
+text-decoration:none
+display:inline-block;
+}
+nav ul li {
+display:inline;
+margin-right:10px;
+}
+nav a:hover,
+nav a:active{background-color:pink;}
+body {
+background-image:url("https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-68565.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1699315200&semt=ais");
+background-size:cover;}
+footer {
+text-align:center;
+background-color:grey;
+padding:3px;}
+</style>
+</head> 
+<body>
+<table class = "table2" width = "100%">
+<tr> 
+<td width = "100%">
+<img src = "https://upload.wikimedia.org/wikipedia/commons/f/f9/BTS_performing_%22Mic_Drop%22_during_the_Speak_Yourself_tour_at_Soldier_Field%2C_Chicago%2C_12_May_2019_02.jpg" height = "300" width = "1300">
+</img>
+</td>
+</tr> 
+</table> 
+<p>
+<nav>
+<ul>
+<li>
+<a href = "index.html"> Home| </a>
+</li>
+<li>
+<a href = "gallery.html"> Gallery| </a>
+</li>
+<li>
+<a href = "videoGallery.html"> Video Gallery </a>
+</li>
+<li>
+<a href = "events.html"> Events </a>
+</li>
+<li> 
+<a href = "signup.html"> Join music community</a>
+</li>
+<li>
+<a href = "musicalinstruments.html"> musical instruments </a>
+</li>
+<li>
+<a href = "contactus.html"> Contact us </a>
+</li>
+</ul>
+</nav>
+</p>
+<table class = table1 width = "100%">
+<tr>
+<td width = "75%">
+<p style = "color:black;" id = "time"></p>
+<h1> <u> Muscial instruments  </u> </h1> 
+<h2> <i>This webiste has information about musical instruments</i></h2>
+<br> 
+<table width = "100%">
+<caption>
+<b>Data about the musical instruments</b>
+</caption>
+<colgroup>
+<col title="Group" span="2">
+<col title="Name">
+<col title="Mass (10^24 kg)">
+<col title="Diameter (km)">
+<col title="Density (kg/m^3)">
+<col title="Gravity (m/s^2)">
+<col title="Length of day (hours)">
+<col title="Distance from Sun (10^6 km)">
+<col title="Mean temperature (°C)">
+<col title="Number of moons">
+<col title="Notes">
+<col title="Image">
+</colgroup>
+<thead>
+<tr>
+<td colspan="2"></td>
+<th> Name </th>
+<th> instrument price </th>
+<th> weight (kg) </th>
+<th> materials </th>
+<th> color </th>
+<th> class </th>
+<th> electronic </th>>
+<th> avalibility </th>
+<th> date </th>
+<th> rating</th>
+<th> Image</th>
+</tr>
+</thead><!-- The fourth child of the table element should be the table body element, which will contain the code and content to display rows of data. --><tbody>
+<tr><th scope="rowgroup" colspan="2" rowspan="4">String instruments</th>
+<th > guitar </th>
+<td> $75 </td>
+<td> 1.1-2.2 (kg)</td>
+<td> 5427 </td>
+<td> 3.7 </td>
+<td> 4222.6 </td>
+<td> 57.9 </td>
+<td> 167 </td>
+<td> 0 </td>
+<td> <div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div></td>
+<td> <img src = "https://www.guitarbrothers.com.au/cdn/shop/products/image_3734.jpg?v=1540429776&width=1946" alt = "guitar" height = "100" width = "100"></td>
+</tr><tr>
+<th> harp </th>
+<td> 4.87 </td>
+<td> 12,104 </td>
+<td> 5243 </td>
+<td> 8.9 </td>
+<td> 2802.0 </td>
+<td> 108.2 </td>
+<td> 464 </td>
+<td> 0 </td>
+<td><div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div></td>
+<td> <img src = "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/141bl-AL1007856_josfsa.jpg" alt = "harp" height = "100" width = "100"</td>
+</tr><tr>
+<th> violin </th>
+<td> 5.97 </td>
+<td> 12,756 </td>
+<td> 5514 </td>
+<td> 9.8 </td>
+<td> 24.0 </td>
+<td>149.6 </td>
+<td> 15 </td>
+<td> 1 </td>
+<td> <div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div> </td>
+<td> <img src = "https://m.media-amazon.com/images/I/71Kxqh0AisL._AC_UF894,1000_QL80_.jpg" alt = "violin" height = "100" width = "100"> </td>
+</tr><tr>
+<th> cello</th>
+<td> 0.642 </td>
+<td> 6,792 </td>
+<td> 3933 </td>
+<td> 3.7 </td>
+<td> 24.7 </td>
+<td> 227.9 </td>
+<td> -65 </td>
+<td> 2 </td>
+<td> <div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div> </td>
+<td> <img src = "https://cdn.britannica.com/70/129670-050-01FEC5FE/Cello.jpg" alt = "cello" height = "100" width = "100"> </td>
+</tr>
+<tr>
+<th scope="rowgroup" colspan="1" rowspan="4">Percussion instruments</th>
+<th scope="rowgroup" colspan="1" rowspan="2">Both</th>
+<th> recorder </th>
+<td> 1898 </td>
+<td> 142,984 </td>
+<td> 1326 </td>
+<td> 23.1</td>
+<td> 9.9 </td>
+<td> 778.6</td>
+<td> -110</td>
+<td> 67</td>
+<td><div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div> </td>
+<td> <img src = "https://cdn11.bigcommerce.com/s-mcpz948crj/images/stencil/1280x1280/products/4474/42823/YAMYRS24B__44952.1678746001.jpg?c=2" alt = "recorder" height = "100" width = "100"> </td>
+</tr>
+<tr>
+<th> flute </th>
+<td> 568 </td>
+<td>120,536</td>
+<td> 687</td>
+<td>9.0 </td>
+<td>10.7</td>
+<td> 1433.5</td>
+<td> -140</td>
+<td> 62 </td>
+<td> <div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div> </td>
+<td> <img src = "https://centralcoastconservatorium.com.au/wp-content/uploads/2022/08/flute.jpg" alt = "flute" width = "100" height = "100"> </td>
+</tr>
+<tr>
+<th scope="rowgroup" colspan="1" rowspan="2">Percussion instruments</th>
+<th> piano</th>
+<td> 86.8</td>
+<td>51,118</td>
+<td>1271</td>
+<td>8.7</td>
+<td>17.2</td>
+<td>2872.5</td>
+<td> -195</td>
+<td> 27</td>
+<td> <div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div> </td>
+<td> <img src = "https://i0.wp.com/pianocity.com.au/wp-content/uploads/2021/01/05-clp-795gp-color-pe_1dc88dff128b6caf1b1fe648bebdebe2.jpg?fit=900%2C900&quality=89&ssl=1" alt = "piano" width = "100" height = "100"> </td>
+</tr>
+<tr>
+<th> drums</th>
+<td> 102</td>
+<td>49,528</td>
+<td>1638</td>
+<td>11.0</td>
+<td>16.1</td>
+<td>4495.1</td>
+<td> -200</td>
+<td> 14</td>
+<td><div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div></td>
+<td> <img src = "https://www.worldofmusic.com.au/wp-content/uploads/2022/09/Pearl-Roadshow-X-Fusion-Plus-Drum-Kit-W-Zildjian-Cymbals-Royal-Blue-Metallic-002.jpg" alt = "drums" height = "100" width = "100"> </td>
+</tr>
+<tr>
+    <th scope="rowgroup" colspan="2" rowspan="1">Dwarf planets</th>
+    <th> Xylophone </th>
+    <td>0.0146</td>
+    <td> 2,370</td>
+    <td>2095 </td>
+    <td> 0.7</td>
+    <td> 153.3</td>
+    <td>5906.4</td>
+    <td>-225</td>
+    <td> 5</td>
+    <td> <div class="rating">
+<span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+</div> </td>
+    <td> <img src = "https://m.media-amazon.com/images/I/61YF-OXcq-L.jpg" alt = "xylophone" height = "100" width = "100"> </td>
+    </tr>
+
+</tbody>
+</table>
+</td> 
+<td width "25%"> 
+<img src = "https://www.worldofmusic.com.au/wp-content/uploads/2023/01/Roland-GP-3-Digital-Grand-Piano-Polished-Ebony-Angle-Open.jpg" width = "300" height = "300">
+</img> <br>
+</td> 
+</tr> 
+</table>
+<tr>
+<td width = "75%">
+<center>
+<div class="music">
+<center> 
+  <textarea cols="50" rows="5" id="display" readonly></textarea>
+<br>
+  <input type="button" class="btn" value="drums" onclick="appendToDisplay('The drum is a member of the percussion group of musical instruments')">
+  <input type="button" class="btn" value="piano" onclick="appendToDisplay('The piano is a keyboard instrument that produces sound when pressed on the keys. Most modern pianos have a row of 88 black and white keys: 52 white keys for the notes of the C major scale')">
+</center>
+</td>
+</tr>
+<!-- Image Map Generated by http://www.image-map.net/ -->
+<img src="https://promova.com/content/instruments_of_music_1b2a084691.png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="more about drums" title="more about drums" href="drum.html" coords="1482,934,951,584" shape="rect">
+    <area target="" alt="more about guitars" title="more about guitars" href="guitar.html" coords="42,577,463,950" shape="rect">
+    <area target="" alt="more about banjo" title="more about banjo" href="banjo.html" coords="496,593,910,960" shape="rect">
+    <area target="" alt="more about harps" title="more about harps" href="harp.html" coords="18,117,250,526" shape="rect">
+    <area target="" alt="more about violins" title="more about violins" href="violin.html" coords="296,49,507,321" shape="rect">
+    <area target="" alt="more about oboes" title="more about oboes" href="oboe.html" coords="553,41,837,291" shape="rect">
+    <area target="" alt="more about accordions" title="more about accordions" href="accordion.html" coords="878,54,1232,350" shape="rect">
+    <area target="" alt="more about mandolin" title="more about mandolin" href="mandolin.html" coords="1256,97,1479,535" shape="rect">
+</map>
+<footer>
+<table>
+<tr>
+ <mark> Baron copyright information &copy; 2023 </mark>
+
+</tr>
+</table> 
+<script>
+function updateDateTime() {
+var now = new Date();
+var dateTimeString = now.toLocaleString();
+document.getElementById('time').innerHTML = dateTimeString;
+}
+
+    // Update every second
+    setInterval(updateDateTime, 1000);
+
+    // Initial update
+    updateDateTime();
+
+function appendToDisplay(value) {
+    document.getElementById('display').value = value;
+  }
+const sliderImages = document.querySelectorAll('.slider img');
+let currentSlide = 0;
+
+function startSlider() {
+setInterval(() => {
+// Reset all images
+sliderImages.forEach(img => {
+img.classList.remove('active');
+});
+
+// Show the next image
+currentSlide = (currentSlide + 1) % sliderImages.length;
+sliderImages[currentSlide].classList.add('active');
+}, 3000);
+}
+
+startSlider();
+
+</script>
+</body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

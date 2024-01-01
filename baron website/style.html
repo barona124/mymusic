@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> formatting examples </title> 
+</head>
+<body> 
+<h1> <u> This line will be underlined </u> </h1> 
+<br>
+<h1> <i> This line will be in italics </i> </h1>
+<br>
+<h1> <em> This line will be also in italics </em> </h1>
+<br> 
+<h1> <b> This line will be in bold <b> </h1> 
+<br>
+<h1> <strong> This line will be strong </strong> </h1> 
+<br>
+<h1> <mark> This line will be highlighted </mark> </h1>
+<br> 
+<p>5<sup>3</sup></p>
+<br> 
+<p>H<sub>5</sub></p>
+<canvas id="myCanvas" width="500" height="400" style="border:3px solid #d3d3d3;"> </canvas>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+var ctx1 = c.getContext("2d");
+ctx1.moveTo(500,0);
+ctx1.lineTo(0,400);
+ctx1.stroke(); 
+ctx.moveTo(0,0);
+ctx.lineTo(500,400);
+ctx.stroke();
+</script>
+</body>
+</html> 
+
